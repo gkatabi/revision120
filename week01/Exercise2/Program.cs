@@ -6,42 +6,59 @@ class Program
     {
         Console.WriteLine("What is your grade percentage?");
         string grades = Console.ReadLine();
-        int percentage  = int.Parse(grades);
+        foat percentage  = float.Parse(grades);
 
-        string letter  = ""
+        string A  = "90"
+        string B  = "80"
+        string C  = "70"
+        string D  = "60"
+        string F  = "50"
 
-        if (percentage >= "90")
+        if (percentage >= "90"  && parcentage < "96" )
         {
-           letter= "A";
+           Console.WriteLine("You got  A");
+           else if   (percentage >= "96")
+           {
+              Console.WriteLine("You Passed with A");   
+
+           } 
         }
-        else if (percentage >= "80"  && percentage < "90")
+        if (percentage >= "80"  && percentage < "86")
         {
-            letter"B";
-        }
-        else if (percentage >= "70" && percentage < "80")
+           Console.WriteLine("You passed with B");
+           else
+           {
+               Console.WriteLine("You passed with  B '+',");
+           }
+        }        
+        if (percentage >= "70" && percentage < "76")
         {
-            letter = "C";
+            Console.WriteLine("You Passed with in C");
+            else
+            { 
+               Console.WriteLine("You passed in C");
+            {
         } 
-        else if (percentage >= "60" && percentage < "70")
+        if (percentage >= "60" && percentage < "70")
         {
-            letter ="D";
+            Console.WriteLine("You are in D");
         }
         if (percentage >= 50 && grades < "60")
         { 
-            letter ="P";  
+            Console.WriteLine("You survived ");  
         }
-        else (percentage  < "50")
+        else if (percentage  < "50")
         {
-            letter ="F";
+            Console.WriteLine("You failed with F");
         }
-        Console>WriteLine($"your grade is:   {letter} ");
+        Console.WriteLine($"Your grade is:   {percentage} ");
 
         if (percentage >= "70")
-#       {
-#          Console.WriteLine ("You passed");
+        {
+           Console.WriteLine ("You passed");
 
         }
-        if (percentage < "70")
+        else if (percentage < "70")
         {
            Console.WriteLine("Better luck next time");
         }

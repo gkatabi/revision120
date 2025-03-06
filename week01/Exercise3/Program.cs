@@ -10,7 +10,7 @@ class Program
         string number = Console.ReadLine();
         float Number = float .Parse(Console.ReadLine());
         
-        string guess = "68"
+        float guess = 68;
         if (Number != Number < "68")
         {
            Console.WriteLine("Guess higher than "+ number);

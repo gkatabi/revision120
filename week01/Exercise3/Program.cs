@@ -26,6 +26,7 @@ class Program
            else 
            {
                Console.WriteLine("you got it");
+               Console.Write("Do you want to continue playing the game? ");
            }
         }
     }

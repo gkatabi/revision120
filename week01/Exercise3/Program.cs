@@ -8,10 +8,10 @@ class Program
         Console.WriteLine("Welcome to the magic number game.");
         Console.WriteLine("I have a number between 1 to 100");
         Console.WriteLine("Guess the number");
-        int number = Convert. ToInt32(Console.ReadLine());
+        int number = Convert. ToInt 32(Console.ReadLine());
         number = 68;
 
-        while (i <= number)
+        while (i <= number)i++;
         {
            Console.WriteLine("That is not the number"); number ++;
 

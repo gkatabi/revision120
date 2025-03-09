@@ -1,8 +1,8 @@
 using System;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main()
     {
         Console.WriteLine("What is your grade percentage?");
         string grades = Console.ReadLine();

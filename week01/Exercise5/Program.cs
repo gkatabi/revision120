@@ -9,6 +9,7 @@ class Program
       string name = Console.ReadLine();
       Console.Write($"{name}") ;
    }
+}
    static int SquaredNumber(int Number)
    {
       Console.WriteLine("Please enter your favorite number! ");

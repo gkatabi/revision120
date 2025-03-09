@@ -9,8 +9,9 @@ class Program
 
 
         Console.WriteLine("What is your last name?");
+     
         string lastName = Console.ReadLine();
-        string names = string.Concat(lastName, " ", firstName);
+        string names = (lastName, + " "+ firstName);
         Console.Write("Your name is " + firstName + "," + "" + names);
         Cosole.WriteLine("What is your first name? ");
         string firstNamez = Console.ReadLine();

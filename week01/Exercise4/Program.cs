@@ -4,27 +4,28 @@ class Program
 {
     static void Main(string[] args)
     {
-        beja =[];
-        List<int>numbers = new List<int>();
+        beja = [];
+        List<int> numbers = new List<int>();
         int number = 1;
 
         while (number <= 1)
         {
             number++;
         }
-        
+
         //Console.ReadLine();
+
         Console.WriteLine("Mention a number to add to a list mention 0 when enough");
         string mention = Console.ReadLine();
-        int Mention = convert. ToInt32(Console.Write(n));
-        List<int>beja = new List<beja>();
+        int Mention = convert.ToInt32(Console.Write(n));
+        List<int> beja = new List<beja>();
         //beja=();
-        List<int>beja;
+        List<int> beja;
         while (beja.Count <= 1)
         {
-            beja ++;
+            beja++;
         }
-        List<int>beja = Console.ReadLine [beja.Append($"{Mention}")];
+        List<int> beja = Console.ReadLine[beja.Append($"{Mention}")];
         Console.WriteLine(beja);
 
     }
@@ -32,12 +33,13 @@ class Program
 }
 
 
-        
-        
-        //string mention = Console.ReadLine();
-        //int Mention= Convert. ToInt 32(mention);
-        //while (Mention > 0)
-        //{
-        //   numbers =[];
-        
-    
+
+
+//string mention = Console.ReadLine();
+//int Mention= Convert. ToInt 32(mention);
+//while (Mention > 0)
+//{
+//   numbers =[];
+
+
+

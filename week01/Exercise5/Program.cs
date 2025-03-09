@@ -15,7 +15,7 @@ class Program
       Console.WriteLine("Please enter your favorite number! ");
       string number = Console.ReadLine();
       int New = Convert.ToInt32(number);
-      int SquaredNumber = New * New;                
+      double SquaredNumber = New * New;                
       return SquaredNumber;
             
     }

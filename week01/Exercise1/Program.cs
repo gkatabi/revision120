@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[]args)
     {
         Console.WriteLine("What is you first  name?");
         string firstName = Console.ReadLine();
@@ -13,7 +13,7 @@ class Program
         string lastName = Console.ReadLine();
         string names = (lastName, + " "+ firstName);
         Console.Write("Your name is " + firstName + "," + "" + names);
-        Cosole.WriteLine("What is your first name? ");
+        Console.WriteLine("What is your first name? ");
         string firstNamez = Console.ReadLine();
         Console.WriteLine("What is your last name? ");
         string lastNamez = Console.ReadLine();

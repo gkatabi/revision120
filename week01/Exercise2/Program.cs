@@ -8,11 +8,11 @@ public class Program
         string grades = Console.ReadLine();
         foat percentage = float.Parse(grades);
 
-        string A = "90"
-        string B = "80"
-        string C = "70"
-        string D = "60"
-        string F = "50"
+        string A = "90";
+        string B = "80";
+        string C = "70";
+        string D = "60";
+        string F = "50";
 
         if (percentage >= "90" && parcentage < "96")
         {

@@ -1,36 +1,61 @@
 using System;
-
-public class Job()
+Namespace revision120;
 {
-    public string_company = "Cocacola Ltd";
+    public class Company()
     {
-        public string Job_title;
-        public int start_year = "2020";
-        public int end_year = 2028;
-    }
-    public string Job2_Developer = new Job2();
+        string companyName = ("Name");
         {
-            public int end_yearYear;
+            string Name = "Brooks Ltd";
             
-            public int year = new int year;
-            public int year start;
-            public int year end;
+        }
+        public void Description;
+        {
+            Console.WriteLine("Private");
         }
     
-
-
-    public class Resume()
+        string CompanyName2 = ("Name2");
+        {
+            public void Name2 = "Microsoft company";
+        }
+        
+    
+    public class  Period()
     {
-    Public string person_name = "Katabira Godfrey ";
-    public string name; 
+        string Years;
+        {
+            public void ._start = "2020";
+            public void ._end = "2028";
+            
+        }
+
+    public class applicant()
+    {
+        public string initials = "Initials";
+        {
+            string SirNameInitials = "  "; 
+            string firstNameInitials = "";
+
+        }
+
+    static void Nain(string[]args)
+    {
+        // Create that what is to be subject in the resume( Applicant ) first
+        Applicant committedApplicant = new Applicant();
+        Applicant committedApplicant = "Bold"
+
+        Company bigCompany = new Company();
+        Company bigCompany = "Brooks Ltd"
+
+        Company2 privateCompany = new company2();
+        Company2 privateCompany = "Microsoft company"
+
+        Job permantJob = new Job();
+        Job permantJob = "Cleaners job"
+
+        Period extendedPeriod =new period();
+        Period extendedPeriod = "Longer" 
+
     }
 }
-            
-
-
-
-
-
-
-
-
+         
+         

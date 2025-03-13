@@ -13,7 +13,7 @@ namespace revision;
         static void JournaRecordReminder(string[]args)
         {
             Console.WriteLine("These are what stop you from writing in your journal daily");
-//            string numbers[] = new string[5] {"1. I forget", "2. Iam too bizy", "3.It's useless", "4. Idon't know how", "5. It's npne pf your business"};
+//      
             Console.Write  {" I forget", " Iam too bizy", "It's useless", " Idon't know how", " It's npne pf your business"};
             string numbers = "Mynumber.txt";
             string[] lines = System.IO.File.ReadAllLines(numbers);

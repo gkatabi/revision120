@@ -1,2 +1,2 @@
 # cse210-ww-student-template
-ok to go
+ok to go home

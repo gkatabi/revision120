@@ -87,6 +87,17 @@ namespace HelloWorld;
           
         public static void Main(string[] msg)
         {
+//            Scripture book = new Scripture();
+//            book.Memorizer();
+//            book.Memorizer();
+//            D.ExposeDetails();
+
+
+            HideDisplay D = new HideDisplay();
+//            D._Display();
+
+
+
             string[]_book = {"John"};
             string[]_chapter = {"5"};
             string[]_numbers = {"1-2"};
@@ -100,6 +111,12 @@ namespace HelloWorld;
              "five ", "porches "};
             string[] Words = _words1.Concat(_words2).ToArray();
             string[] Words3 = (Words.SkipLast(1).ToArray());
+        //    List <string> Words3[] = new  List Words3<string>();
+ //           string Words3 = Words.
+
+
+
+
             Console.WriteLine(Words3);
             for (int i = 0; i< Words3.Length; i++)
             {
@@ -123,202 +140,6 @@ namespace HelloWorld;
                 
                    i++;
                 }
-         //          while (Lead != Words.Length)
-        //           {
-//      //                 Console.WriteLine("Ok");
-//      //                 Console.Write(Words2[i]);
-        //               Lead++;
-        //               i++;
-
-        //           }
-                   
-                     //  List <string>Words2 =  List<string>();
-
-        //        Console.Write (Words2[i]);            //(Words3.SkipLast(1).ToArray());
-        //           i++; 
-        //        }
-            
-
-//                Console.Write(Words3[i]);
-            
-//            }
-//            Console.WriteLine("Have you grasped it? "  );
-//            int j = 0;
-//            while (j < Words2.Length)
- //           {
-//                Console.Write($"{Words2.SkipLast(1).ToArray()}");
-//                Console.Write(j);
-//                j++;
-
-
-
-//            {            Console.WriteLine(String.Join(",", Words));
-            
             }
         }
     }
-
-            
-
-
-
-//                Console.Write($"{writeWords2}");
-//                Random rdm = new Random();
-//                Console.Write(writeWords.Replace("went","_"));
-//                Console.Write($"{writeWords2}");
-//            }
-
-
-
-
-
-            
-    
-
-        
-//        }
-
-//        private class HideWords()
-//        {
-//            Console.Write($"Words")
-////        }
-
-
-
-              
-
-
-//        public static string Instructions()
-//        {
-//            Console.WriteLine("Please enter your {0} ", );
-//            Console.WriteLine("Please enter your {0} ", );
-//            Console.WriteLine("Please enter your {0} ", );
-//            Console.WriteLine("Please enter your {0} ", );
-//            Console.WriteLine("Please enter your {0} ", );
-//            return "";
-            
-//        public static class Join
-//        {
-//            public void _Verses (int Numbers);
-//            {
-//                _Verses.Cocat(Verses)
-//            } 
-
-//        }
-
-            
-            
-
-
-//        }
-
-
-        
-//        public static class Hide
-
-//        {
-//            Book = "";
-
-//            Chapter = "";
-
-//            Verse = ;
-//            {
-//                start = ;
-
-//                end = ;
-//            }
-
-
-
-
-             
-
-//        }
-
-
-
-//        static string words()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        public string _Book;// =" John";
-
-//        public int _chapter;// =5;
-
-//        public char _colon;
-
-//        public int _Verse;// = 1;
-
-
-
-//        public string _writeWords;
-//        public Scripture()        {
-//            _Book = "John";
-//            _chapter =05 ;
-//            _Verse = 01 ;
-//            _writeWords = "_";  
-//        }
-
-//    public class Hider
-
-//    { 
-//        public string _Book(string Book)
-//        {
- //           return ("John");
-//        }
-//        public int _chapter(string chapter)
-//        {
-//            return (5);    
-//        }
-//        public string Verse(string Verse)
-//        {
-//            return Verse.Replace("1","_"); 
-//        }
-//        public void writeWords(string writeWords)
-        
-        
-//        {
-//            Console.Write(writeWords.Replace("Jerusalem","_"));
-//            List <char> writeWords2 = new List <char>();
-            
-//            {
-
-//                Console.Write($"{writeWords2}");
-//                Random rdm = new Random();
-//                Console.Write(writeWords.Replace("went","_"));
-//                Console.Write($"{writeWords2}");
-//            }
-//        }                
-//            private void List<T>(object v)
-//            {
-//                throw new NotImplementedException();
-//            }
-
-//        } 
-    
-//    static void Main(string[] args)
-//    {
-
-
-//        string[] writeWords = { "After ","this ","there ", "was ", "a ","feast ","of ","the ","Jews ","and ","Jesus ","went ","to ","Jerusalem "};
-
-//        Console.WriteLine("Remind your self what John 5:1 says");
-//        for (int i = 0; i< writeWords.Length; i++)
-//        Console.Write(writeWords[i]);
-//        }
-//    }     
-//}
